@@ -1,0 +1,42 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #542451;
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    padding: 30px;
+    background: white;
+    margin: 0;
+}
+
+.middle-container {
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+footer {
+    padding: 15px;
+}
+
+p{
+    padding: 50px;
+}
+.foodImg1 {
+    height: 20rem;
+    margin: 0;
+    padding-left: 15rem;
+}
+.foodImg2 {
+    height: 20rem;
+    margin: 0rem;
+    
+}
+.home-pic {
+    width: 25rem;
+}
