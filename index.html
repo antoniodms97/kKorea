@@ -6,10 +6,11 @@
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-<!--Google Fonts-->
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&display=swap"
+        rel="stylesheet">
     ​
     <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -26,16 +27,16 @@
 
 <body>
     ​
-    <header class="jumbotron jumbotron-fluid">
+    <header>
         <div class="container">
             <div class="row">
-                <div class="row row-content align-items-center">
-                    <div class="col">
-                        <img src="img/logo.png" alt="">
-                    </div>
+                <div class="col banner-img">
+                    <img src="img/banner-photo.jpeg" alt="">
                 </div>
             </div>
+        </div>
     </header>
+
     <!--Navbar-->
     <nav class="navbar navbar-expand navbar-light bg-light sticky-top">
         <div class="container-fluid">
@@ -45,53 +46,70 @@
             </button>
             <div class="collapse navbar-collapse" id="korNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>
-                            Home</a>
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link"><i class='fa fa-regular fa-address-card'></i>
-                            About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="menu.html"><i
-                                class="fa fa-regular fa-clipboard fa-lg"></i> Menu</a>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
-                                class='fa fa-address-book fa-lg'></i> Contact</a>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     ​
+    <!--Header-->
+
     <div class="container-fluid">
         <div class="row row-content">
-            <div class="col-sm-6 welcome-head text-center">
+            <div class="col welcome-head text-center">
                 <h1>Welcome to Kim's</h1>
+                <img class="korean-flag" src="img/logo.png" alt="korean-flag">
                 <p>An authentic korean experience, fit for a king. Located just 5 minutes from downtown Spokane.</p>
             </div>
-            <div class="col-sm-6">
-                <img src="img/home-pic.png" alt="home-pic" class="home-pic img-thumbnail">
+        </div>
+        <!--Order Buttons-->
+        <div class="row">
+            <div class="col align-items-center
+                ">
+                <button class="btn btn-primary btn-lg ml-4"
+                    href="https://www.grubhub.com/restaurant/kims-korean-restaurant-1314-north-division-street-spokane/1545852">Order
+                    Pickup</button>
+                <button class="btn btn-secondary btn-lg"
+                    href="https://www.grubhub.com/restaurant/kims-korean-restaurant-1314-north-division-street-spokane/1545852">Order
+                    Delivery</button>
             </div>
         </div>
+
+    </div>
     </div>
     <hr>
+    <!--Middle container-->
     <div class="row row-content middle-container">
-        <div class="col">
-            <img class='foodImg1' src="img/korean-foods.jpeg" alt="korean-food">
+        <div class="card">
+            <img class='foodImg card-img' src="img/kimsfood5.jpeg" alt="platter">
         </div>
-        <div class="col">
-            <img class='foodImg2' src="img/korean-food2.jpg" alt="korean-food2">
+        <div class="card">
+            <img class="foodImg card-img" src="img/sushi.png" alt="sushi">
+        </div>
+        <div class="card">
+            <img class="foodImg card-img" src="img/kimsfood2.jpeg" alt="steak">
+        </div>
+    </div>
+    <!--Bottom Container-->
+    <div class="row bottom-container">
+        <div class="card">
+            <img class='foodImg card-img' src="img/kimsfood.jpeg" alt="korean-food2">
+        </div>
+        <div class="card">
+            <img class="foodImg card-img" src="img/kimfsfood3.jpeg" alt="platter">
         </div>
     </div>
     <hr>
-    <div class="row row-content bottom-container">
+
 
     </div>
     <hr>
-    <div class="row row-content">
-        <div class="col">
-            <a role="button" class="btn btn-secondary ml-1" href="/contactus.html">Contact Us</a>
-        </div>
-    </div>
-
+    <!--Footer-->
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -107,12 +125,13 @@
                     <h5>Social</h5>
                     <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
                             class="fa fa-facebook"></i></a>
+                    <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                 </div>
                 <div class="col-sm-4 text-center">
                     <a role="button" class="btn btn-link" href="tel:+15093263187"><i class="fa fa-phone"></i>
                         1-509-326-3187</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
-                            class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                    <a role="button" class="btn btn-link" href="kimskoreancuisine@kims.com"><i
+                            class="fa fa-envelope-o"></i> kimskoreancuisine@kims.com</a>
                 </div>
             </div>
         </div>

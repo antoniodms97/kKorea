@@ -5,19 +5,27 @@ h1 {
 .navbar {
     background-color: #542451;
     font-size: 1.5rem;
+    text-align: right;
 }
 
 .jumbotron {
-    padding: 30px;
-    background: white;
-    margin: 0;
+    text-align: center;
+    margin-left: 0;
+    background-color: #fff;
+    padding: 100px;
+    
 }
 
 .middle-container {
+    margin-left: 25%;
+}
+.bottom-container {
+    margin-left: 15%;
 }
 
 p {
     font-size: 1.5rem;
+    
 }
 
 footer {
@@ -27,16 +35,14 @@ footer {
 p{
     padding: 50px;
 }
-.foodImg1 {
+.foodImg {
     height: 20rem;
     margin: 0;
-    padding-left: 15rem;
-}
-.foodImg2 {
-    height: 20rem;
-    margin: 0rem;
     
 }
 .home-pic {
     width: 25rem;
+}
+body {
+    text-align: center;
 }
